@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guitar App</title>
+    <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+    <div>
+        <label id = "noteLabel">C</label>
+        <input type = "checkbox" id="cbNaturalNotes" checked="true">
+        <label for = "cbNaturalNotes"> Include Natural Notes</label><br>
+        <input type = "checkbox" id="cbAccidentalNotes" checked="true">
+        <label for = "cbAccidentalNotes"> Include Accidental Notes</label><br>
+        <button id = "btnGenerateNote">Generate Note</button>
+    </div>
+    <div>
+        <label id = "bpmLabel">100</label>
+        <input type = "range" id = "bpmRange" min = "50" max = "200" step = "5" value = "100" name = "hello">
+        <input type = "checkbox" id="cbMetronome">
+        <label for = "cbMetronome">Metronome</label>
+    </div>
+    
+
+    <script src = "index.js"></script>
+</body>
+</html>

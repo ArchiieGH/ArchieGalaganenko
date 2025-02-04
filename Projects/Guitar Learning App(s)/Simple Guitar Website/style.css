@@ -1,0 +1,6 @@
+#noteLabel, #bpmLabel {
+    display: block;
+    text-align: center;
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
